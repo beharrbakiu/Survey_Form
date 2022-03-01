@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="form.css">
+    <link href="https://fonts.googleapis.com/css?family=Charmonman|Crimson+Text|Josefin+Sans|Niramit|PT+Sans|Raleway|Roboto+Condensed|Roboto+Mono|Roboto:700"
+        rel="stylesheet">
+    <title>FORM</title>
+
+
+
+
+
+</head>
+
+<body>
+    <h1 id="title">Survey Form - FreeCodeCamp</h1>
+    <p id="description">Please fullfill the identification form to sign in</p>
+    <form id="survey-form" action="#" method="GET">
+        <div id="labelat">
+            <label id="name-label" for="number">Emri:</label>
+            <input id="name" type="text" name="name" autocomplete="off" placeholder="Emri" required="name">
+            <label id="email-label" for="email">Emaili:</label>
+            <input id="email" type="email" name="email" autocomplete="off" placeholder="Emaili" required="email">
+            <label id="number-label" for="number">Mosha:</label>
+            <input id="number" type="number" name="mosha" placeholder="Mosha" min="1" max="125" required="number">
+        </div>
+            <p>Ju jeni </p>
+        <select name="zgjidh" id="dropdown" required="value">
+            <option value="Student">Student</option>
+            <option value="Worker">Web Designer</option>
+            <option value="Businessman">Web Developer</option>
+            <option value="Expert">Expert</option>
+        </select>
+
+        <div id="checkboxes">
+        <p> Gjinia juaj : </p>
+            <ul style="list-style: none;">
+            <li><label>Mashkull<input type="radio" name="gender" value="1"></label></li>
+            <li><label>Femer<input type="radio" name="gender" value="2"></label></li>
+            <li><label>Tjeter<input type="radio" name="gender" value="0"></label></li>
+        </ul>
+        </div>
+
+        <p>Mesazhi (opsional) :</p>
+        <textarea name="IDK" id="IDK" cols="30" rows="10" placeholder="Mesazhi"></textarea>
+        <input id="submit" type="submit" value="Submit">
+    </form>
+
+
+</html>
+</body>

@@ -1,0 +1,163 @@
+body {
+    background-color: rgb(194, 214, 231);
+    font-family: "Niramit";
+    text-align: center;
+
+}
+::-webkit-scrollbar{
+    width:10px;
+    background-color: rgb(90, 131, 167);
+    
+    
+}
+::-webkit-scrollbar-thumb{
+    transition-duration: .4s;
+    border:2px solid rgb(160, 246, 160);
+    border-radius:10px;
+    background: rgb(0, 43, 78);
+    padding:15px;
+}
+::-webkit-scrollbar-thumb:hover{
+    padding:5px;
+    border-radius:0px;
+    border:2px solid rgb(23, 83, 23);
+    background: white;
+}
+
+#description {
+    text-decoration: overline;
+    font-size: 20px;
+    margin: 0;
+    padding: 3px;
+
+
+}
+
+form {
+    border-radius: 10px 5px 10px 5px;
+    width: 70%;
+    height: auto;
+    background-color: rgb(71, 115, 133);
+    margin-left: 16%;
+    padding: 5px;
+}
+
+input {
+    width: 30%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(76, 139, 221);
+    border-radius: 4px;
+    margin: 9px 0px;
+    color: rgb(35, 0, 36);
+    font-size: 15px;
+    background-color: rgb(253, 254, 255);
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+
+}
+
+
+
+input:focus {
+    width: 50%;
+    background-color: rgb(187, 213, 246);
+    border: 3px solid rgb(82, 47, 195);
+}
+
+
+select {
+    width: 30%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid seagreen;
+    border-radius: 4px;
+    margin: 9px 0px;
+    color: black;
+    font-size: 15px;
+    background-color: rgb(253, 254, 255);
+    transition-duration: .5s;
+
+}
+
+#checkboxes {
+    padding-top: 20px;
+    margin: 10px;
+    color: white;
+
+}
+
+p {
+    color: black;
+    font-size: 22px;
+}
+
+li {
+    text-decoration-line: overline;
+    position: relative;
+    left: 75px;
+    display: block;
+    padding-bottom: 10px;
+    font-size: 15px;
+
+
+}
+
+#labelat label {
+    display: block;
+    margin: 30px;
+    color: black;
+    font-size: 22px;
+
+}
+
+input[type=radio] {
+    padding: 10px;
+    
+
+}
+
+textarea {
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    width: 60%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid seagreen;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+textarea:focus {
+    width: 80%;
+    background-color: rgb(173, 205, 216);
+    border: 3px solid rgb(89, 0, 255);
+}
+
+/* THATS HOW U CAN SELECT MORE SPECIFICLLY INPUTS
+input[type=text]:focus {
+    background-color: lightblue;
+}
+*/
+
+
+/* SUBMIT BUTTON */
+
+input[type=submit] {
+    color:white;
+    background-color: rgb(77, 177, 52);
+    text-decoration: none;
+    font-weight: bold;
+    width: 60%;
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+input[type=submit]:hover {
+
+    background-color: rgb(79, 255, 25);
+    color: black;
+
+}
